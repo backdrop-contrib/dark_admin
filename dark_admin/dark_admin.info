@@ -1,7 +1,0 @@
-name = Dark Admin
-description = Uses JS/CSS to convert the admin pages into dark mode. (Seven).
-backdrop = 1.x
-version = 1.x-1.1
-type = module
-package = User Interface
-project = dark_admin
