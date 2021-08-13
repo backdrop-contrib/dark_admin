@@ -1,0 +1,34 @@
+#admin-bar, img {
+	filter:invert(1) hue-rotate(180deg);
+}
+#admin-bar {
+	background:black;
+}
+.admin-panel h3 {
+    background: none!important;
+    padding-left: 15px;
+}
+.l-header:before {
+	border-top:1px solid #0074bd;
+	border-bottom: 1px solid #e3e3e3;
+	background: #f0f4f6; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f0f4f6 0%, #f0f4f6 0%, #e1e9ed 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #f0f4f6 0%,#f0f4f6 0%,#e1e9ed 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #f0f4f6 0%,#f0f4f6 0%,#e1e9ed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f4f6', endColorstr='#e1e9ed',GradientType=0 ); /* IE6-9 */
+}
+#admin-bar #admin-bar-menu > li > .dropdown > li > a.active-trail {
+    background-color: #0074bd;
+    filter: invert(1) hue-rotate(180deg);
+    text-shadow: none;
+}
+th, ul.primary li a, ul.primary li a.active, ul.primary li a:active, ul.primary li a:visited, ul.primary li a:hover, ul.primary li.active a, .expand-dropdown-tabs-control, .responsive-tabs-mobile .expand-dropdown-tabs-control:before, .responsive-tabs-mobile .expand-dropdown-tabs-label {
+    background: #e1f4fe!important;
+    background: -moz-linear-gradient(top, #f0f4f6 0%, #f0f4f6 0%, #e1e9ed 100%)!important;
+    background: -webkit-linear-gradient(top, #f0f4f6 0%,#f0f4f6 0%,#e1e9ed 100%)!important;
+    background: linear-gradient(to bottom, #f0f4f6 0%,#f0f4f6 0%,#e1e9ed 100%)!important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f4f6', endColorstr='#e1e9ed',GradientType=0 )!important;
+}
+tr:hover, tr:hover td.active, tr.odd:hover td.active {
+    background: #e6f0ff!important;
+}
