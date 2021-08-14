@@ -4,10 +4,9 @@
  * Implements hook_init().
  */
 function dark_admin_init() {
-	if (path_is_admin(current_path())) {
-		$path = backdrop_get_path('module', 'dark_admin');
-		backdrop_add_js($path . '/js/dark-admin.js');
-		backdrop_add_css($path . '/css/dark-admin.css');
-	}
-
+  if (path_is_admin(current_path())) {
+    $path = backdrop_get_path('module', 'dark_admin');
+    backdrop_add_js($path . '/js/dark-admin.js');
+    backdrop_add_css($path . '/css/dark-admin.css');
+  }
 }
